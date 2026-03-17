@@ -4,7 +4,8 @@ public class WeatherMaker {
 	private String info;
 
 	public WeatherMaker() {
-		this.info = "서울-대전-대구-부산-인천-제주";
+//		this.info = "서울-대전-대구-부산-인천-제주";
+		this.info = "서울-12-25.2-대전3-65.2-대구-56-85.9";
 	}
 
 	public WeatherDTO[] init() {
